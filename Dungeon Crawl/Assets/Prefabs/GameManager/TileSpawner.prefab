@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1736715738547346}
+  m_IsPrefabParent: 1
+--- !u!1 &1736715738547346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4558723391704816}
+  - component: {fileID: 114055160071874402}
+  - component: {fileID: 114444083296521844}
+  - component: {fileID: 114748626705756464}
+  - component: {fileID: 114885106270449340}
+  m_Layer: 0
+  m_Name: TileSpawner
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1949309274961898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4382186288705346}
+  - component: {fileID: 114667109882488294}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1994527383230614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4464152306632526}
+  m_Layer: 0
+  m_Name: Tiles
+  m_TagString: Tiles
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4382186288705346
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949309274961898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4558723391704816}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4464152306632526
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994527383230614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4558723391704816}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4558723391704816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736715738547346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4382186288705346}
+  - {fileID: 4464152306632526}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114055160071874402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736715738547346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1981dafb1453b46981c469ddd17d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pathManager: {fileID: 114748626705756464}
+  pathfinder: {fileID: 114444083296521844}
+  voidRoomSize: 7
+  roomUIFont: {fileID: 12800000, guid: d7553e4dff1844248ba9c0e761d22956, type: 3}
+  enemyNumberProgression: 04000000050000000500000005000000
+  voidNames:
+  - The Void
+  - The Black Cube
+  - Outer Space
+  forestNames:
+  - Glacier
+  - Winterlands
+  - Mt. Arttic
+  caveNames:
+  - Cave of Begginings
+  - Cave of Tresures
+  - Balrogs Lair
+  iceNames:
+  - Grassy Plains
+  - Forest Maze
+  - Grassy Plains
+  volcanoNames:
+  - Mt. Itoi
+  - Ifrit's Lair
+  - The Core
+  goToPreviousSafeRoom: {fileID: 1316331301746934, guid: 2860347d835cf424eb09ce41a1a274af,
+    type: 2}
+  changeCharacter: {fileID: 1987212359013134, guid: ef209c43576997445a5b23cbf082f4e0,
+    type: 2}
+  rankUp: {fileID: 1315822540848044, guid: 0b6b9349a8631ae4cbc05fefc2c010a9, type: 2}
+  floorTileVoid: {fileID: 1409322238582592, guid: 461a5707892c87b44a584a0eaee3398f,
+    type: 2}
+  floorTileCave: {fileID: 1321270091330250, guid: e6983c6e2c9d0da4597df8ff934c138a,
+    type: 2}
+  floorTileFactory: {fileID: 1463501432750238, guid: 3e2780c93006ddb478ee195554d943e0,
+    type: 2}
+  floorTileForest: {fileID: 1116040089773726, guid: 0e69c89b9c1e1704788adda9f58c1c2e,
+    type: 2}
+  floorTileVolcano: {fileID: 1264148833589782, guid: bfde78f68ab805c43bde33051164a2b1,
+    type: 2}
+  wallTileVoid: {fileID: 1538655931847458, guid: 5b02a15e6fc603642ab8e482147833c8,
+    type: 2}
+  wallTileCave: {fileID: 1083673959369256, guid: b8046677ee1caee4d87a078ccd64fc4b,
+    type: 2}
+  wallTileFactory: {fileID: 1370178706017952, guid: 7d51f373e118edf49a7fd83743215486,
+    type: 2}
+  wallTileForest: {fileID: 1083673959369256, guid: b8046677ee1caee4d87a078ccd64fc4b,
+    type: 2}
+  wallTileVolcano: {fileID: 1704655093049854, guid: bfd71b231407be64cb32975eb1621e90,
+    type: 2}
+  stairTile: {fileID: 1903541631117782, guid: e9426f57695a7324e814762251ce1372, type: 2}
+  spikeTile: {fileID: 1784403581209432, guid: 4c1653afc656b844eb362b4568231a06, type: 2}
+  batTile: {fileID: 1190681058530148, guid: 4004cbaa2a1a37e41b59743bab5db41d, type: 2}
+  player: {fileID: 1523293857133478, guid: e96d5a11d40b85a4ebda1e94e2c7cae2, type: 2}
+  keyTile: {fileID: 1880012820941910, guid: 0f4f937ea5345644dab8c8d1e697b105, type: 2}
+  doorTile: {fileID: 0}
+  item1: {fileID: 1935622249409864, guid: 399d9ce4d2af36244b384542517f13f9, type: 2}
+  food: {fileID: 1341416335329878, guid: 68b10e0ee37b6c94c8a6b032ed3cf313, type: 2}
+  potion: {fileID: 1635280495250836, guid: 03cdb735e7946eb47b5bf7336e9e8630, type: 2}
+  equipment: {fileID: 1081965104063664, guid: f12d0f29b934c314c8d085eec2ace106, type: 2}
+  scroll: {fileID: 1001415941605992, guid: 7811a145317271b4c9a9ba0325189c2e, type: 2}
+  treasure: {fileID: 1943296788990996, guid: 38735e21d51f3cf42afea4882faae7d1, type: 2}
+  trapdoor: {fileID: 1092031487288876, guid: 328518c9042a297419737617df0b3ce0, type: 2}
+  internalPlayer: {fileID: 0}
+  internalStair: {fileID: 0}
+  internalKey: {fileID: 0}
+  internalTrapdoor: {fileID: 0}
+  width: 21
+  height: 21
+  enemyList: []
+  itemList: []
+  dungeonLevel: 1
+--- !u!114 &114444083296521844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736715738547346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f3337eb8858134cac5d6541133f07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114667109882488294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949309274961898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8945aafd13f05488fb44f53d09f35a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  northExit: 0
+  southExit: 0
+  eastExit: 0
+  westExit: 0
+  xPos: 0
+  yPos: 0
+  width: 7
+  height: 7
+  scale: 0
+  exitCount: 0
+  isAttachedToVoidRom: 0
+  isVisisted: 1
+  index: 0
+  directionToPreviousRoom: 0
+--- !u!114 &114748626705756464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736715738547346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba281863d68a3e14789fc0b782acaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114885106270449340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736715738547346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e0cad4a88ef714dae9589a805da3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutTexture: {fileID: 2800000, guid: f60b9d2cec06ac344be6827ba5230296, type: 3}
+  fadeSpeed: 0.8

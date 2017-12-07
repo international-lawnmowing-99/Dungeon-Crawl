@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0014a569c46c44245894ed662611a56d
+timeCreated: 1511496488
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fairy: {instanceID: 0}
+  - HitFX: {fileID: 8300000, guid: 941d9fad8cc92d04c99f2df23c073138, type: 3}
+  - DamageText: {instanceID: 0}
+  - XpCrystal: {instanceID: 0}
+  - Anims: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

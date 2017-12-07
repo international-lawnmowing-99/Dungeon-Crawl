@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 447288bd8af651e4bbf4918ba3644139
+timeCreated: 1510185055
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bat
+    100002: bat_L_ear_01_jnt
+    100004: bat_L_ear_02_jnt
+    100006: bat_L_ear_end
+    100008: bat_L_leg_end
+    100010: bat_L_leg_jnt
+    100012: bat_L_wing_01_jnt
+    100014: bat_L_wing_02_jnt
+    100016: bat_L_wing_03_jnt
+    100018: bat_L_wing_end
+    100020: bat_main_jnt
+    100022: bat_R_ear_01_jnt
+    100024: bat_R_ear_02_jnt
+    100026: bat_R_ear_end
+    100028: bat_R_leg_end
+    100030: bat_R_leg_jnt
+    100032: bat_R_wing_01_jnt
+    100034: bat_R_wing_02_jnt
+    100036: bat_R_wing_03_jnt
+    100038: bat_R_wing_end
+    100040: ear_L_CTRL
+    100042: ear_R_CTRL
+    100044: //RootNode
+    100046: group1
+    100048: Height_CTRL
+    100050: leg_L_CTRL
+    100052: leg_R_CTRL
+    100054: Main_jnt
+    100056: wing_1_L
+    100058: wing_1_R
+    100060: wing_2_L
+    100062: wing_2_R
+    100064: wing_3_L
+    100066: wing_3_R
+    400000: Bat
+    400002: bat_L_ear_01_jnt
+    400004: bat_L_ear_02_jnt
+    400006: bat_L_ear_end
+    400008: bat_L_leg_end
+    400010: bat_L_leg_jnt
+    400012: bat_L_wing_01_jnt
+    400014: bat_L_wing_02_jnt
+    400016: bat_L_wing_03_jnt
+    400018: bat_L_wing_end
+    400020: bat_main_jnt
+    400022: bat_R_ear_01_jnt
+    400024: bat_R_ear_02_jnt
+    400026: bat_R_ear_end
+    400028: bat_R_leg_end
+    400030: bat_R_leg_jnt
+    400032: bat_R_wing_01_jnt
+    400034: bat_R_wing_02_jnt
+    400036: bat_R_wing_03_jnt
+    400038: bat_R_wing_end
+    400040: ear_L_CTRL
+    400042: ear_R_CTRL
+    400044: //RootNode
+    400046: group1
+    400048: Height_CTRL
+    400050: leg_L_CTRL
+    400052: leg_R_CTRL
+    400054: Main_jnt
+    400056: wing_1_L
+    400058: wing_1_R
+    400060: wing_2_L
+    400062: wing_2_R
+    400064: wing_3_L
+    400066: wing_3_R
+    4300000: Bat
+    9500000: //RootNode
+    13700000: Bat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
